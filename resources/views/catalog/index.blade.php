@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Display Items</title>
+    </head>
+    <body>
+        @auth
+        @foreach ($items as $item)
+        <div>
+            {{$item->name}}
+        </div>
+        @endforeach
+        @endauth
+
+    </body>   
+</html>
+
+  
+                 
+       
+                   
+
+         
